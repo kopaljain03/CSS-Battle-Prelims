@@ -1,0 +1,44 @@
+.container {
+  gap: 1.5rem;
+  background-color: #edf2f8;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.child {
+  border-radius: 10px;
+  /* margin: 15px; */
+  padding: 15px 15px 15px 15px;
+}
+.a1 {
+  /* border: 2px solid red; */
+  background-color: #aa66cc;
+  grid-column: span 2;
+}
+.a4 {
+  grid-column: span 2;
+}
+.a5 {
+  grid-column: 4;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+.wtext {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.btext {
+  font-size: 19px;
+}
+
+.wp {
+  color: aliceblue;
+}
